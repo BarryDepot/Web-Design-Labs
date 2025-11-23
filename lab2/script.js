@@ -65,3 +65,4 @@ function displayResults(marks) {
   document.getElementById('results').innerHTML = output;
   document.getElementById('results').style.display = 'block';
 }
+
