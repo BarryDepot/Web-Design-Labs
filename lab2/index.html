@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grade Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Grade Calculator</h1>
+
+      <div class="input-section">
+        <label for="numSubjects">Enter the number of subjects you take</label>
+        <input
+          type="number"
+          id="numSubjects"
+          min="1"
+          placeholder="Enter number"
+        />
+      </div>
+
+      <div id="subjectInputs"></div>
+
+      <button onclick="calculate()">Calculate</button>
+
+      <div id="results"></div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
